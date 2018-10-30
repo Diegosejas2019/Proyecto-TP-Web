@@ -151,6 +151,7 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\LoginController.cs" />
     <Compile Include="Controllers\PedidosController.cs" />
     <Compile Include="EmpanadasEntityModel.Context.cs">
       <AutoGen>True</AutoGen>
@@ -193,10 +194,14 @@
   <ItemGroup>
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\font-awesome.min.css" />
+    <Content Include="Content\owl.carousel.css" />
+    <Content Include="Content\owl.theme.default.css" />
+    <Content Include="Content\style.css" />
     <Content Include="EmpanadasEntityModel.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <LastGenOutput>EmpanadasEntityModel.Context.cs</LastGenOutput>
       <DependentUpon>EmpanadasEntityModel.edmx</DependentUpon>
+      <LastGenOutput>EmpanadasEntityModel.Context.cs</LastGenOutput>
     </Content>
     <Content Include="EmpanadasEntityModel.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
@@ -204,14 +209,37 @@
       <LastGenOutput>EmpanadasEntityModel.cs</LastGenOutput>
     </Content>
     <Content Include="favicon.ico" />
+    <Content Include="fonts\fontawesome-webfont.svg" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="Imagenes\avatar.png" />
+    <Content Include="Imagenes\background01.jpg" />
+    <Content Include="Imagenes\background02.jpg" />
+    <Content Include="Imagenes\background03.jpg" />
+    <Content Include="Imagenes\blog-post.jpg" />
+    <Content Include="Imagenes\blog01.jpg" />
+    <Content Include="Imagenes\blog02.jpg" />
+    <Content Include="Imagenes\event01.jpg" />
+    <Content Include="Imagenes\event02.jpg" />
+    <Content Include="Imagenes\image01.jpg" />
+    <Content Include="Imagenes\image02.jpg" />
+    <Content Include="Imagenes\image03.jpg" />
+    <Content Include="Imagenes\image04.jpg" />
+    <Content Include="Imagenes\image05.jpg" />
+    <Content Include="Imagenes\image06.jpg" />
+    <Content Include="Imagenes\image07.jpg" />
+    <Content Include="Imagenes\logo.png" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="fonts\fontawesome-webfont.eot" />
+    <Content Include="fonts\fontawesome-webfont.ttf" />
+    <Content Include="fonts\fontawesome-webfont.woff" />
+    <Content Include="fonts\fontawesome-webfont.woff2" />
+    <Content Include="fonts\FontAwesome.otf" />
     <EntityDeploy Include="EmpanadasEntityModel.edmx">
       <Generator>EntityModelCodeGenerator</Generator>
       <LastGenOutput>EmpanadasEntityModel.Designer.cs</LastGenOutput>
@@ -227,7 +255,9 @@
     <Content Include="Scripts\jquery.validate.min.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
+    <Content Include="Scripts\main.js" />
     <Content Include="Scripts\modernizr-2.6.2.js" />
+    <Content Include="Scripts\owl.carousel.min.js" />
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
     <Content Include="Web.config" />
@@ -253,6 +283,7 @@
     <Content Include="Views\Pedidos\Eliminar.cshtml" />
     <Content Include="Views\Pedidos\Elegir.cshtml" />
     <Content Include="Views\Pedidos\Detalle.cshtml" />
+    <Content Include="Views\Login\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
